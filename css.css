@@ -1,0 +1,298 @@
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url("https://assets.nflxext.com/ffe/siteui/vlv3/93da5c27-be66-427c-8b72-5cb39d275279/94eb5ad7-10d8-4cca-bf45-ac52e0a052c0/IN-en-20240226-popsignuptwoweeks-perspective_alpha_website_medium.jpg");
+    background-position: center center;
+    background-size: max(1000px, 100vw);
+    background-repeat: no-repeat;
+    position: relative;
+    height: 70vh;
+}
+
+.main .box {
+    position: absolute;
+    top: 0px;
+    height: 70vh;
+    width: 100%;
+    opacity: 0.64;
+    background-color: black;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    width: 60vw;
+    height: 62px;
+    margin: auto;
+    /* background-color: blue; */
+    justify-content: space-between;
+}
+
+nav>div>img {
+    margin: 3px 3px;
+    height: 55px;
+    position: relative;
+    z-index: 10;
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+    height: 40px;
+    width: 80px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.signin {
+    color: white;
+    background-color: red;
+}
+
+.hero {
+    font-family: 'Martel Sans', sans-serif;
+    height: calc(100%-62px);
+    /*we can as parent have height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+}
+
+.hero> :first-child {
+    font-weight: bolder;
+    font-size: 48px;
+}
+
+.hero> :nth-child(2) {
+    font-size: 24px;
+    font-weight: 700;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.hero1 {
+    display: flex;
+    column-gap: 10px;
+    margin-top: 30px;
+}
+
+.hero1 button {
+    height: 40px;
+    width: 100px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero input {
+    color: white;
+    font-weight: 400;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    font-size: 11px;
+    height: 36px;
+    width: 150px;
+    border-radius: 5px;
+    border: 1px solid rgba(215, 212, 212, 0.6);
+    background-color: rgba(23, 23, 23, 0.3);
+}
+
+.separation {
+    width: 100%;
+    height: 4px;
+    background-color: gray;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    max-width: 60vw;
+    gap: 20px;
+}
+
+.first .text {
+    color: white;
+    padding-top: 20px;
+}
+
+.first img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.first video {
+    position: absolute;
+    top: 517px;
+    right: 317px;
+    width: 22vw;
+}
+
+.special3 {
+    font-size: 48px;
+    font-weight: 800;
+}
+
+.text :nth-child(2) {
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.second {
+    display: flex;
+    margin: auto;
+    width: 90vw;
+    gap: 10px;
+}
+
+.secondtext {
+    margin-top: 75px;
+}
+
+.secondtext :nth-child(1),
+.secondtext :nth-child(2) {
+    color: white;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.secondtext :nth-child(3),
+.secondtext :nth-child(4) {
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+}
+.special1{
+    font-size: 35px;
+    font-weight: 700;
+}
+
+.special2{
+    font-size: 24px;
+    font-weight: 400;
+}
+.sec1img img {
+    width: 30vw;
+    position: relative;
+    z-index: 10;
+}
+
+.sec1img2 video {
+    position:absolute;
+    top:1350px;
+    right:345px;
+    width: 18.8vw;
+}
+.last{
+    display:flex;
+    gap:20px;
+    width:90vw;
+    margin: auto;
+}
+.lasttext{
+   margin-top: 70px;
+}
+.lasttext :nth-child(1){
+    font-size:48px;
+    font-weight:700;
+    color:white;
+}
+.lasttext :nth-child(2),
+.lasttext :nth-child(3),
+.lasttext :nth-child(4){
+    font-size:28px;
+    color:white;
+}
+.gap{
+    height: 60px;
+    width:100%;
+}
+.faq{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    color:white;
+    font-size:38px;
+    font-weight:bolder;
+    height: 90px;
+}
+.footer2{
+    display:flex;
+    width:80vw;
+    margin:auto;
+    flex-direction: column;
+    gap:5px;
+}
+.footer2 > div{
+    display: flex;
+    height: 80px;
+    background-color:rgb(57, 57, 57);
+    color:white;
+    align-items: center;
+    padding-left: 20px;
+    font-size:30px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    /* background-color: yellow; */
+}
+
+svg{
+    height:32px;
+    padding-right: 35px;
+    transition: height 0.3s ease;
+}
+svg:hover{
+    height:37px;
+}
+.faq1{
+    display:flex;
+    justify-content: space-between;
+}
+.faq1:hover{
+    background-color: rgb(129, 124, 124);
+}
+.career{
+    color:white;
+    font-size: 15px;
+    text-decoration: underline;
+    /* background-color: green; */
+    margin-left:130px;
+    margin-right:135px;
+    margin-top: 20px;
+    display:grid;
+    row-gap: 10px;
+    column-gap: 10px;
+    grid-template-areas: "one two three four"
+                         "five six seven eight"
+                         "nine ten eleven twelve"
+                         "thirteen fourteen fifteen sixteen";
+}
+.career > div{
+    display:flex;
+    /* justify-content:center; */
+    align-items: center;
+}
+
+
